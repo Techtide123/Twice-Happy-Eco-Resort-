@@ -1,16 +1,16 @@
-$flaticon_bokinn-font: "flaticon_bokinn";
+$flaticon_Happy Eco-font: "flaticon_Happy Eco";
 
 @font-face {
-    font-family: $flaticon_bokinn-font;
-    src: url("./flaticon_bokinn.woff2?237dfe65834f05ae55285c68505d7dff") format("woff2"),
-url("./flaticon_bokinn.woff?237dfe65834f05ae55285c68505d7dff") format("woff"),
-url("./flaticon_bokinn.eot?237dfe65834f05ae55285c68505d7dff#iefix") format("embedded-opentype"),
-url("./flaticon_bokinn.ttf?237dfe65834f05ae55285c68505d7dff") format("truetype"),
-url("./flaticon_bokinn.svg?237dfe65834f05ae55285c68505d7dff#flaticon_bokinn") format("svg");
+    font-family: $flaticon_Happy Eco-font;
+    src: url("./flaticon_Happy Eco.woff2?237dfe65834f05ae55285c68505d7dff") format("woff2"),
+url("./flaticon_Happy Eco.woff?237dfe65834f05ae55285c68505d7dff") format("woff"),
+url("./flaticon_Happy Eco.eot?237dfe65834f05ae55285c68505d7dff#iefix") format("embedded-opentype"),
+url("./flaticon_Happy Eco.ttf?237dfe65834f05ae55285c68505d7dff") format("truetype"),
+url("./flaticon_Happy Eco.svg?237dfe65834f05ae55285c68505d7dff#flaticon_Happy Eco") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
-    font-family: flaticon_bokinn !important;
+    font-family: flaticon_Happy Eco !important;
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;
@@ -20,7 +20,7 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-$flaticon_bokinn-map: (
+$flaticon_Happy Eco-map: (
     "calendar": "\f101",
     "hotel-room": "\f102",
     "hamburger": "\f103",
@@ -66,128 +66,128 @@ $flaticon_bokinn-map: (
 );
 
 .flaticon-calendar:before {
-    content: map-get($flaticon_bokinn-map, "calendar");
+    content: map-get($flaticon_Happy Eco-map, "calendar");
 }
 .flaticon-hotel-room:before {
-    content: map-get($flaticon_bokinn-map, "hotel-room");
+    content: map-get($flaticon_Happy Eco-map, "hotel-room");
 }
 .flaticon-hamburger:before {
-    content: map-get($flaticon_bokinn-map, "hamburger");
+    content: map-get($flaticon_Happy Eco-map, "hamburger");
 }
 .flaticon-phone-flip:before {
-    content: map-get($flaticon_bokinn-map, "phone-flip");
+    content: map-get($flaticon_Happy Eco-map, "phone-flip");
 }
 .flaticon-envelope:before {
-    content: map-get($flaticon_bokinn-map, "envelope");
+    content: map-get($flaticon_Happy Eco-map, "envelope");
 }
 .flaticon-chef:before {
-    content: map-get($flaticon_bokinn-map, "chef");
+    content: map-get($flaticon_Happy Eco-map, "chef");
 }
 .flaticon-24-hours:before {
-    content: map-get($flaticon_bokinn-map, "24-hours");
+    content: map-get($flaticon_Happy Eco-map, "24-hours");
 }
 .flaticon-gym:before {
-    content: map-get($flaticon_bokinn-map, "gym");
+    content: map-get($flaticon_Happy Eco-map, "gym");
 }
 .flaticon-swimming:before {
-    content: map-get($flaticon_bokinn-map, "swimming");
+    content: map-get($flaticon_Happy Eco-map, "swimming");
 }
 .flaticon-construction:before {
-    content: map-get($flaticon_bokinn-map, "construction");
+    content: map-get($flaticon_Happy Eco-map, "construction");
 }
 .flaticon-check-circle:before {
-    content: map-get($flaticon_bokinn-map, "check-circle");
+    content: map-get($flaticon_Happy Eco-map, "check-circle");
 }
 .flaticon-play:before {
-    content: map-get($flaticon_bokinn-map, "play");
+    content: map-get($flaticon_Happy Eco-map, "play");
 }
 .flaticon-right-arrow:before {
-    content: map-get($flaticon_bokinn-map, "right-arrow");
+    content: map-get($flaticon_Happy Eco-map, "right-arrow");
 }
 .flaticon-people:before {
-    content: map-get($flaticon_bokinn-map, "people");
+    content: map-get($flaticon_Happy Eco-map, "people");
 }
 .flaticon-wifi:before {
-    content: map-get($flaticon_bokinn-map, "wifi");
+    content: map-get($flaticon_Happy Eco-map, "wifi");
 }
 .flaticon-shower:before {
-    content: map-get($flaticon_bokinn-map, "shower");
+    content: map-get($flaticon_Happy Eco-map, "shower");
 }
 .flaticon-plane:before {
-    content: map-get($flaticon_bokinn-map, "plane");
+    content: map-get($flaticon_Happy Eco-map, "plane");
 }
 .flaticon-veranda:before {
-    content: map-get($flaticon_bokinn-map, "veranda");
+    content: map-get($flaticon_Happy Eco-map, "veranda");
 }
 .flaticon-fridge:before {
-    content: map-get($flaticon_bokinn-map, "fridge");
+    content: map-get($flaticon_Happy Eco-map, "fridge");
 }
 .flaticon-clock:before {
-    content: map-get($flaticon_bokinn-map, "clock");
+    content: map-get($flaticon_Happy Eco-map, "clock");
 }
 .flaticon-cross-country:before {
-    content: map-get($flaticon_bokinn-map, "cross-country");
+    content: map-get($flaticon_Happy Eco-map, "cross-country");
 }
 .flaticon-wolf:before {
-    content: map-get($flaticon_bokinn-map, "wolf");
+    content: map-get($flaticon_Happy Eco-map, "wolf");
 }
 .flaticon-cocoa:before {
-    content: map-get($flaticon_bokinn-map, "cocoa");
+    content: map-get($flaticon_Happy Eco-map, "cocoa");
 }
 .flaticon-snowshoes:before {
-    content: map-get($flaticon_bokinn-map, "snowshoes");
+    content: map-get($flaticon_Happy Eco-map, "snowshoes");
 }
 .flaticon-massage:before {
-    content: map-get($flaticon_bokinn-map, "massage");
+    content: map-get($flaticon_Happy Eco-map, "massage");
 }
 .flaticon-bicyclist:before {
-    content: map-get($flaticon_bokinn-map, "bicyclist");
+    content: map-get($flaticon_Happy Eco-map, "bicyclist");
 }
 .flaticon-table-tennis:before {
-    content: map-get($flaticon_bokinn-map, "table-tennis");
+    content: map-get($flaticon_Happy Eco-map, "table-tennis");
 }
 .flaticon-movie-night:before {
-    content: map-get($flaticon_bokinn-map, "movie-night");
+    content: map-get($flaticon_Happy Eco-map, "movie-night");
 }
 .flaticon-marker:before {
-    content: map-get($flaticon_bokinn-map, "marker");
+    content: map-get($flaticon_Happy Eco-map, "marker");
 }
 .flaticon-user:before {
-    content: map-get($flaticon_bokinn-map, "user");
+    content: map-get($flaticon_Happy Eco-map, "user");
 }
 .flaticon-star:before {
-    content: map-get($flaticon_bokinn-map, "star");
+    content: map-get($flaticon_Happy Eco-map, "star");
 }
 .flaticon-star-sharp-half-stroke:before {
-    content: map-get($flaticon_bokinn-map, "star-sharp-half-stroke");
+    content: map-get($flaticon_Happy Eco-map, "star-sharp-half-stroke");
 }
 .flaticon-angle-small-up:before {
-    content: map-get($flaticon_bokinn-map, "angle-small-up");
+    content: map-get($flaticon_Happy Eco-map, "angle-small-up");
 }
 .flaticon-angle-small-down:before {
-    content: map-get($flaticon_bokinn-map, "angle-small-down");
+    content: map-get($flaticon_Happy Eco-map, "angle-small-down");
 }
 .flaticon-search-1:before {
-    content: map-get($flaticon_bokinn-map, "search-1");
+    content: map-get($flaticon_Happy Eco-map, "search-1");
 }
 .flaticon-cross:before {
-    content: map-get($flaticon_bokinn-map, "cross");
+    content: map-get($flaticon_Happy Eco-map, "cross");
 }
 .flaticon-check:before {
-    content: map-get($flaticon_bokinn-map, "check");
+    content: map-get($flaticon_Happy Eco-map, "check");
 }
 .flaticon-facebook-messenger:before {
-    content: map-get($flaticon_bokinn-map, "facebook-messenger");
+    content: map-get($flaticon_Happy Eco-map, "facebook-messenger");
 }
 .flaticon-facebook:before {
-    content: map-get($flaticon_bokinn-map, "facebook");
+    content: map-get($flaticon_Happy Eco-map, "facebook");
 }
 .flaticon-linkedin:before {
-    content: map-get($flaticon_bokinn-map, "linkedin");
+    content: map-get($flaticon_Happy Eco-map, "linkedin");
 }
 .flaticon-twitter-alt-circle:before {
-    content: map-get($flaticon_bokinn-map, "twitter-alt-circle");
+    content: map-get($flaticon_Happy Eco-map, "twitter-alt-circle");
 }
 .flaticon-whatsapp:before {
-    content: map-get($flaticon_bokinn-map, "whatsapp");
+    content: map-get($flaticon_Happy Eco-map, "whatsapp");
 }

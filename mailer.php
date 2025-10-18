@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $recipient = "support@reactheme.com";
 
     // Set the email subject.
-    $subject = "Moonlit Contact Form $name";
+    $subject = "Twice Happy Eco Resorts Contact Form $name";
 
     // Build the email content.
     $email_content = "Name: $name\n";
