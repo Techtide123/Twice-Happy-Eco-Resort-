@@ -222,6 +222,32 @@
 
     <!-- advance search end -->
 
+    <script>
+        // WhatsApp redirect for home advance search form
+        (function () {
+            const form = document.querySelector('.advance__search__section form.advance__search');
+            if (!form) return;
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                const phone = '917846935345'; // +91 7846935345
+                const checkIn = document.getElementById('check__in')?.value || '';
+                const checkOut = document.getElementById('check__out')?.value || '';
+                const adult = document.getElementById('adult')?.value || '';
+                const child = document.getElementById('child')?.value || '';
+
+                const message = `📢 *New Booking Request*%0A` +
+                    `Check In: ${encodeURIComponent(checkIn)}%0A` +
+                    `Check Out: ${encodeURIComponent(checkOut)}%0A` +
+                    `Adults: ${encodeURIComponent(adult)}%0A` +
+                    `Children: ${encodeURIComponent(child)}%0A` +
+                    `Source: Home Page`;
+
+                const url = `https://wa.me/${phone}?text=${message}`;
+                window.open(url, '_blank');
+            });
+        })();
+    </script>
+
     <!-- about us -->
     <div class="rts__section about__area is__home__main section__padding">
         <div class="section__shape d-none d-xl-block">

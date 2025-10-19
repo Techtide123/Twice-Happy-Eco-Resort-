@@ -40,7 +40,7 @@
 
     <!-- page header -->
     <div class="rts__section page__hero__height page__hero__bg"
-        style="background-image: url(assets/images/pages/header__bg.webp);">
+        style="background-image: url(assets/images/pages/header__bg.png);">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-12">
@@ -285,6 +285,32 @@
         </div>
     </div>
     <!-- room details area end -->
+
+    <script>
+        document.getElementById("bookingForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const phone = "917846935345"; // Country code + number (+91 7846935345)
+            const checkIn = document.getElementById("check__in").value;
+            const checkOut = document.getElementById("check__out").value;
+            const adult = document.getElementById("adult").value;
+            const child = document.getElementById("child").value;
+            const room = document.getElementById("room").value;
+            const exbed = document.getElementById("exbed").value;
+
+            const message = `📢 *New Booking Request*%0A
+Check In: ${checkIn}%0A
+Check Out: ${checkOut}%0A
+Adults: ${adult}%0A
+Children: ${child}%0A
+Rooms: ${room}%0A
+Extra Beds: ${exbed}%0A
+Room Type: PREMIUM ROOM`;
+
+            const url = `https://wa.me/${phone}?text=${message}`;
+            window.open(url, "_blank");
+        });
+    </script>
 
     <!-- similar room area -->
     <div class="rts__section pb-120">
@@ -649,31 +675,5 @@
     <!-- custom js -->
     <script src="assets/js/main.js"></script>
 </body>
-<script>
-    document.getElementById("bookingForm").addEventListener("submit", function (e) {
-        e.preventDefault();
-
-        const phone = "917846935345"; // Country code + number
-        const checkIn = document.getElementById("check__in").value;
-        const checkOut = document.getElementById("check__out").value;
-        const adult = document.getElementById("adult").value;
-        const child = document.getElementById("child").value;
-        const room = document.getElementById("room").value;
-        const exbed = document.getElementById("exbed").value;
-
-        const message = `📢 *New Booking Request*%0A
-Check In: ${checkIn}%0A
-Check Out: ${checkOut}%0A
-Adults: ${adult}%0A
-Children: ${child}%0A
-Rooms: ${room}%0A
-Extra Beds: ${exbed} 
-Room Type: PREMIUM ROOM`;
-
-        const url = `https://wa.me/${phone}?text=${message} `;
-        window.open(url, "_blank");
-    });
-</script>
-
 
 </html>

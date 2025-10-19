@@ -8,7 +8,78 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="icon" type="image/png" href="goura-img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="Twice Happy Eco Resorts - Hotel and Resort HTML Template">
+    <meta name="keywords" content="hotel, resort, Spa">
+    <meta name="robots" content="index, follow">
+    <!-- for open graph social media -->
+    <meta property="og:title" content="Hotel and Resort">
+    <meta property="og:description" content="Twice Happy Eco Resorts - Hotel and Resort HTML Template">
+    <!-- for twitter sharing -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hotel and Resort">
+    <meta name="twitter:description" content="Twice Happy Eco Resorts - Hotel and Resort HTML Template">
+    <!-- favicon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- title -->
+    <title>Twice Happy Eco Resorts - Contact Us</title>
+
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- icon font from flaticon (corrected path) -->
+    <link rel="stylesheet" href="assets/fonts/flaticon_bokinn.css">
+    <!-- all plugin css -->
+    <link rel="stylesheet" href="assets/css/plugins.min.css">
+    <!-- main style custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <style>
+        /* Header/Footer local tweaks to match booking page and avoid collisions */
+        .header__top {
+            background: #1b1205;
+            color: #fff;
+        }
+
+        .header__top .link__item {
+            color: #f2e5c9;
+        }
+
+        .main__header.header__function {
+            background: #fff;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .navigation__menu .navigation__menu--item__link {
+            color: #1b1205;
+        }
+
+        .navigation__menu .submenu.sub__style {
+            background: #fff;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+        }
+
+        .rts__footer.footer__background {
+            background: #1b1205;
+            color: #f6efe3;
+        }
+
+        .rts__footer .widget__title {
+            color: #e9d7b2;
+        }
+
+        .rts__footer a[aria-label="footer__link"],
+        .rts__footer a[aria-label="footer__contact"],
+        .rts__footer .link__item {
+            color: #f2e5c9;
+        }
+
+        .copyright__text {
+            background: #151007;
+            color: #e9d7b2;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -17,52 +88,51 @@
         }
 
         body {
-            background: linear-gradient(135deg, #f5f5f5, #eae0d5);
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            background: radial-gradient(1200px 600px at 10% 10%, #f8f6f2, #efe7da) fixed;
             min-height: 100vh;
             padding: 20px;
-            flex-direction: column;
         }
 
-        .container {
+        .booking-container {
             display: flex;
-            max-width: 900px;
+            max-width: 1000px;
             width: 100%;
-            background-color: #fff;
-            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
             flex-wrap: wrap;
             position: relative;
             transition: all 0.3s ease;
+            border: 1px solid rgba(182, 152, 90, 0.25);
+            backdrop-filter: blur(6px);
+            margin: 40px auto;
         }
 
         /* Left Panel */
         .left {
-            background: linear-gradient(160deg, #b6985a, #f2e5c9);
-            color: #fff;
+            background: linear-gradient(160deg, #b6985a, #e9d7b2);
+            color: #1b1205;
             flex: 1;
-            padding: 40px 30px;
+            padding: 48px 36px;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            gap: 15px;
+            gap: 18px;
             min-width: 300px;
             text-align: center;
         }
 
         .left h1 {
-            font-size: 32px;
-            margin-bottom: 15px;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            font-size: 34px;
+            margin-bottom: 6px;
+            letter-spacing: 0.3px;
         }
 
         .left p {
-            font-size: 16px;
-            line-height: 1.6;
-            color: #000;
+            font-size: 15px;
+            line-height: 1.7;
+            color: #1b1205;
         }
 
         .left p strong {
@@ -71,27 +141,27 @@
 
         /* Right Panel (Form) */
         .right {
-            flex: 1;
-            padding: 40px 30px;
-            min-width: 300px;
+            flex: 1.25;
+            padding: 40px 36px;
+            min-width: 320px;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
-            gap: 15px;
-            text-align: center;
+            align-items: stretch;
+            gap: 10px;
         }
 
         .right h1 {
-            font-size: 28px;
-            color: #333;
-            margin-bottom: 10px;
+            font-size: 26px;
+            color: #2a2a2a;
+            margin-bottom: 0px;
         }
 
         .right h2 {
-            font-size: 22px;
-            color: #555;
-            margin-bottom: 25px;
+            font-size: 16px;
+            color: #6b6b6b;
+            margin-bottom: 22px;
+            font-weight: 500;
         }
 
         /* Form Styles */
@@ -100,49 +170,61 @@
             text-align: left;
         }
 
+        /* New grid layout */
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+        }
+
+        .form-grid .full-width {
+            grid-column: 1 / -1;
+        }
+
         .form-group {
-            margin-bottom: 20px;
+            margin-bottom: 0;
         }
 
         .form-group label {
             display: block;
             margin-bottom: 8px;
             font-weight: 600;
-            color: #333;
+            color: #2b2b2b;
         }
 
         .form-control {
             width: 100%;
-            padding: 12px 15px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            font-size: 16px;
-            transition: border-color 0.3s;
+            padding: 12px 14px;
+            border: 1px solid #ded6c7;
+            border-radius: 10px;
+            font-size: 15px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            background: #ffffff;
         }
 
         .form-control:focus {
             border-color: #b6985a;
             outline: none;
+            box-shadow: 0 0 0 4px rgba(182, 152, 90, 0.15);
         }
 
         .btn-submit {
-            background-color: #27ae60;
-            border-color: #27ae60;
-            padding: 12px 20px;
-            font-size: 18px;
+            background: linear-gradient(160deg, #2ecc71, #27ae60);
+            border: none;
+            padding: 13px 20px;
+            font-size: 16px;
             width: 100%;
-            border-radius: 8px;
-            font-weight: 600;
-            color: white;
+            border-radius: 12px;
+            font-weight: 700;
+            color: #fff;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: transform 0.15s ease, box-shadow 0.2s ease, filter 0.2s ease;
         }
 
         .btn-submit:hover {
-            background-color: #219653;
-            border-color: #219653;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            filter: brightness(0.95);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 18px rgba(39, 174, 96, 0.25);
         }
 
         /* Back Home Button */
@@ -158,16 +240,16 @@
             gap: 8px;
             text-decoration: none;
             color: #fff;
-            background-color: #b6985a;
-            padding: 12px 30px;
-            border-radius: 30px;
-            font-weight: 600;
-            transition: all 0.3s ease;
+            background: linear-gradient(160deg, #c8aa6b, #b6985a);
+            padding: 12px 28px;
+            border-radius: 999px;
+            font-weight: 700;
+            transition: all 0.25s ease;
         }
 
         .back-home a:hover {
-            background-color: #a88540;
-            transform: translateY(-2px);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 16px rgba(182, 152, 90, 0.35);
         }
 
         /* QR Code Styling */
@@ -240,14 +322,14 @@
             font-style: italic;
         }
 
-        @media (max-width: 768px) {
-            .container {
+        @media (max-width: 992px) {
+            .booking-container {
                 flex-direction: column;
             }
 
             .left,
             .right {
-                padding: 25px 20px;
+                padding: 28px 22px;
                 text-align: center;
             }
 
@@ -260,7 +342,7 @@
             }
 
             .right h2 {
-                font-size: 20px;
+                font-size: 18px;
             }
 
             .back-home a {
@@ -284,12 +366,19 @@
             .copy-btn {
                 padding: 6px 10px;
             }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+                gap: 14px;
+            }
         }
     </style>
+    <!-- moved to body for correct placement -->
 </head>
 
 <body>
-    <div class="container">
+    <script src="header.js"></script>
+    <div class="booking-container">
         <div class="left">
             <h1>Welcome !</h1>
             <h2>Twice Happy Eco Resorts</h2>
@@ -320,55 +409,61 @@
             <h2>Fill in Your Details</h2>
 
             <form class="booking-form" id="bookingForm">
-                <div class="form-group">
-                    <label for="customerName">Customer Name *</label>
-                    <input type="text" class="form-control" id="customerName" placeholder="Enter your name" required>
-                </div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="customerName">Customer Name *</label>
+                        <input type="text" class="form-control" id="customerName" placeholder="Enter your name"
+                            required>
+                    </div>
 
-                <div class="form-group">
-                    <label for="extraCustomerName">Extra Customer Name</label>
-                    <input type="text" class="form-control" id="extraCustomerName"
-                        placeholder="Enter additional guest name">
-                </div>
+                    <div class="form-group">
+                        <label for="extraCustomerName">Extra Customer Name</label>
+                        <input type="text" class="form-control" id="extraCustomerName"
+                            placeholder="Enter additional guest name">
+                    </div>
 
-                <div class="form-group">
-                    <label for="comingFrom">Coming From *</label>
-                    <input type="text" class="form-control" id="comingFrom" placeholder="Enter your location" required>
-                </div>
+                    <div class="form-group">
+                        <label for="comingFrom">Coming From *</label>
+                        <input type="text" class="form-control" id="comingFrom" placeholder="Enter your location"
+                            required>
+                    </div>
 
-                <div class="form-group">
-                    <label for="roomType">Room Type *</label>
-                    <select class="form-control" id="roomType" required>
-                        <option value="">Select a room type</option>
-                        <option value="Luxury Deluxe Room">KING SUIT ROOM</option>
-                        <option value="PREMIUM SUIT ROOM">PREMIUM SUIT ROOM</option>
-                        <option value="PREMIUM ROOM">PREMIUM ROOM</option>
-                        <!-- <option value="deluxe-room-4">Deluxe Room - 4 People</option>
-                        <option value="deluxe-room-6">Deluxe Room - 6 People</option>
-                        <option value="dormitory-room">Dormitory Room</option>
-                        <option value="standard-room-3">Standard Room - 3 People</option>
-                        <option value="standard-room-ac">Standard AC Room</option>
-                        <option value="standard-room-non-ac">Standard Non-AC Room</option> -->
-                    </select>
-                </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">Phone Number *</label>
+                        <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number"
+                            required>
+                    </div>
 
-                <div class="form-group">
-                    <label for="phoneNumber">Phone Number *</label>
-                    <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number"
-                        required>
-                </div>
+                    <div class="form-group">
+                        <label for="checkInDate">Check In Date *</label>
+                        <input type="date" class="form-control" id="checkInDate" required>
+                    </div>
 
-                <div class="form-group">
-                    <label for="checkInDate">Check In Date *</label>
-                    <input type="date" class="form-control" id="checkInDate" required>
-                </div>
+                    <div class="form-group">
+                        <label for="checkOutDate">Check Out Date *</label>
+                        <input type="date" class="form-control" id="checkOutDate" required>
+                    </div>
 
-                <div class="form-group">
-                    <label for="checkOutDate">Check Out Date *</label>
-                    <input type="date" class="form-control" id="checkOutDate" required>
-                </div>
+                    <div class="form-group full-width">
+                        <label for="roomType">Room Type *</label>
+                        <select class="form-control" id="roomType" required>
+                            <option value="">Select a room type</option>
+                            <option value="Luxury Deluxe Room">KING SUIT ROOM</option>
+                            <option value="PREMIUM SUIT ROOM">PREMIUM SUIT ROOM</option>
+                            <option value="PREMIUM ROOM">PREMIUM ROOM</option>
+                            <!-- <option value="deluxe-room-4">Deluxe Room - 4 People</option>
+                            <option value="deluxe-room-6">Deluxe Room - 6 People</option>
+                            <option value="dormitory-room">Dormitory Room</option>
+                            <option value="standard-room-3">Standard Room - 3 People</option>
+                            <option value="standard-room-ac">Standard AC Room</option>
+                            <option value="standard-room-non-ac">Standard Non-AC Room</option> -->
+                        </select>
+                    </div>
 
-                <button type="submit" class="btn-submit">Send Booking Details to WhatsApp</button>
+                    <div class="form-group full-width">
+                        <button type="submit" class="btn-submit">Send Booking Details to WhatsApp</button>
+                    </div>
+                </div>
             </form>
         </div>
     </div>
@@ -451,6 +546,7 @@
             });
         });
     </script>
+    <script src="footer.js"></script>
 </body>
 
 </html>
