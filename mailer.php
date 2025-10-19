@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Set the recipient email address.
     // FIXME: Update this to your desired email address.
-    $recipient = "support@reactheme.com";
+    $recipient = "twicehappyecoresorts@gmail.com";
 
     // Set the email subject.
     $subject = "Twice Happy Eco Resorts Contact Form $name";

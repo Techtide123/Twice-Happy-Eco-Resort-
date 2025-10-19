@@ -51,6 +51,9 @@ document.write(`
                                      <li class="navigation__menu--item has-child">
                                         <a href="gallery.html" class="navigation__menu--item__link">Gallery</a>
                                         </li>
+                                    <li class="navigation__menu--item has-child">
+                                        <a href="service.html" class="navigation__menu--item__link">Service</a>
+                                        </li>
                                     <li class="navigation__menu--item">
                                         <a href="contact.html" class="navigation__menu--item__link">Contact</a>
                                     </li>
@@ -60,7 +63,7 @@ document.write(`
 
                     </div>
                     <div class="main__logo">
-                        <a href="index.html"><img class="logo__class" src="assets/images/logo/logo.svg"
+                        <a href="index.html"><img class="logo__class" src="assets/images/icon/logo.png" style="width: 85px; height: auto;"
                                 alt="Twice Happy Eco Resorts"></a>
                     </div>
                     <div class="main__right">

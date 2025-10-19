@@ -15,7 +15,7 @@ document.write(`
             <div class="row">
                 <div class="footer__widget__wrapper">
                     <div class="rts__widget">
-                        <a href="index.html"><img class="footer__logo" src="assets/images/logo/logo.svg"
+                        <a href="index.html"><img class="footer__logo" src="assets/images/icon/logo.png" style="width: 120px; height: auto;"
                                 alt="footer logo"></a>
                         <p class="font-sm max-290 mt-20">
                             Each room features plush bedding, high-quality linens, and a selection of ensure a restful
@@ -59,6 +59,9 @@ document.write(`
                 <div class="row">
                     <div class="copyright__wrapper">
                         <p class="mb-0">Copyright © 2025 Twice Happy Eco Resorts. All rights reserved.</p>
+                        <div class="col-lg-6 text-center copy-right-sec">
+            			Designed & Developed By <a href="https://tripstar.co.in" style="color:blue"><b>Tripstar</b></a>
+            		    </div>
                         <div class="footer__social__link">
                             <a href="#" aria-label="footer__social" class="link__item">Facebook</a>
                             <a href="#" aria-label="footer__social" class="link__item">Linkedin</a>

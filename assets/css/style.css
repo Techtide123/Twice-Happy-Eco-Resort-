@@ -12643,7 +12643,7 @@ picture.jarallax-img img {
   display: none !important;
 }
 .rts__btstrp__offcanvase .offcanvase__wrapper .left__side .offcanvase__logo {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 .rts__btstrp__offcanvase .offcanvase__wrapper .left__side .description {
   color: var(--rts-white);
@@ -13190,7 +13190,7 @@ picture.jarallax-img img {
 
 .copyright__text {
   border-top: 1px solid rgba(101, 103, 107, 0.2);
-  padding: 40px 0;
+  padding: 0;
   position: relative;
   z-index: 1;
 }
