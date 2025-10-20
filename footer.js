@@ -44,8 +44,8 @@ document.write(`
                     <div class="rts__widget">
                         <span class="widget__title">Contact Us</span>
                         <ul>
-                            <li><a aria-label="footer__contact" href="tel:+916816296604"><i
-                                        class="flaticon-phone-flip"></i> (+91) 6816296604</a></li>
+                            <li><a aria-label="footer__contact" href="tel:+917846935345"><i
+                                        class="flaticon-phone-flip"></i> (+91) 7846935345</a></li>
                             <li><a aria-label="footer__contact" href="mailto:twicehappyecoresorts@gmail.com"><i
                                         class="flaticon-envelope"></i>twicehappyecoresorts@gmail.com</a></li>
                             <li><a aria-label="footer__contact" href="#"><i class="flaticon-marker"></i>Chandragiri, Gajapati, Odisha</a></li>

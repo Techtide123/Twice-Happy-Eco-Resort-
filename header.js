@@ -40,7 +40,7 @@ document.write(`
                                                 <a href="PREMIUM_SUIT_ROOM.html">PREMIUM SUIT ROOM</a>
                                             </li>
                                             <li role="menuitem" class="has-child">
-                                                <a href="PREMIUM_ROOM.html">PREMIUM ROOM</a>
+                                                <a href="PREMIUM_ROOM.html">Standard Room</a>
                                             </li>
                                         </ul>
                                     </li>
