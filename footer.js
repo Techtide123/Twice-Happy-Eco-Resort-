@@ -60,7 +60,7 @@ document.write(`
                     <div class="copyright__wrapper">
                         <p class="mb-0">Copyright © 2025 Twice Happy Eco Resorts. All rights reserved.</p>
                         <div class="col-lg-6 text-center copy-right-sec">
-            			Designed & Developed By <a href="https://tripstar.co.in" style="color:blue"><b>Tripstar</b></a>
+            			Designed & Developed By <img href="https://tripstar.co.in" src="https://tripstar.co.in/assets/my-img/logo.png" style="width: 100px; height: auto;" alt="footer logo">
             		    </div>
                         <div class="footer__social__link">
                             <a href="#" aria-label="footer__social" class="link__item">Facebook</a>
